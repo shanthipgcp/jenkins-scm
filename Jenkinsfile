@@ -11,7 +11,7 @@ pipeline{
             steps{
                 script{
 
-                    def course = "K8s"
+                    def course = "AI"
                     //if condition
                     if(course == "K8s"){
                         println "Hey, Arjun buddy!! Thanks for enrolling to ${course} course"
