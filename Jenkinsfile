@@ -4,6 +4,7 @@ pipeline {
         stage ('Build') {
             steps {
                 echo "hi from github scm"
+                echo "executing from scm"
             }
         }
     }
