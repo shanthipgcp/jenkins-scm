@@ -10,7 +10,7 @@ pipeline{
         stage('GrooveStage'){
             steps{
                 script{
-                    def course = "K8s"
+                    def course = "AI"
                     println "Hey, Arjun buddy!! Thanks for enrolling to ${course} course"
                 }
             }
