@@ -1,28 +1,13 @@
 pipeline{
-
     agent any
     stages{
-        stage('Buid'){
-            steps{
+        stage('Build'){
+                steps{
                 echo "Hello from Jenkins SCM pipeline"
+                }        
             }
-        }
-        stage('GrooveStage'){
-            steps{
-                script{
+        steps{
 
-                    def course = "AI"
-                    //if condition
-                    if(course == "K8s"){
-                        println "Hey, Arjun buddy!! Thanks for enrolling to ${course} course"
-                    }
-                    else{
-                        println "Hey, Arjun buddy!! Please do enroll to ${course} course"
-                    }
-
-                    //println "Hey, Arjun buddy!! Thanks for enrolling to ${course} course"
-                }
-            }
         }
     }
 }
