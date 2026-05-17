@@ -4,7 +4,7 @@ pipeline{
         stage('Build') {
                 steps {
                 echo "Hello from Jenkins SCM pipeline"
-                echo "this will give some error"
+                error "this will give some error"
                 }        
             }
     }
